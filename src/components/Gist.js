@@ -152,13 +152,13 @@ const GistDescriptionText = styled.p`
 const Files = styled.div`
   display: flex;
   flex-wrap: wrap;
-  padding: 10px 20px;
+  gap: 15px;
+  padding: 10px 0px;
 `;
 const File = styled.div`
   display: flex;
   align-items: center;
-  gap: 5px;
-  margin-left: 20px;
+  gap: 1px;
   cursor: pointer;
 `;
 const FileName = styled.p`
